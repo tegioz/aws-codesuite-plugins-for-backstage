@@ -1,0 +1,26 @@
+# Artifact Hub package metadata file
+version: 0.1.1
+name: aws-codesuite
+displayName: AWS CodeSuite
+createdAt: 2023-01-16T00:00:00Z
+description: Plugin that adds latest status and expanded history for CI/CD runs of your AWS CodeSuite services to your Backstage deployment
+license: Apache-2.0
+homeURL: https://github.com/awslabs/aws-codesuite-plugins-for-backstage
+keywords:
+  - aws
+  - codesuite
+  - backstage
+links:
+  - name: Source
+    url: https://github.com/awslabs/aws-codesuite-plugins-for-backstage
+changes:
+  - kind: added
+    description: Some new cool feature
+  - kind: fixed
+    description: A hard to reproduce annoying issue
+provider:
+  name: Amazon Web Services
+install: |-
+  Brief install instructions in markdown format
+
+  Content added here will be displayed when the INSTALL button on the package details page is clicked.
